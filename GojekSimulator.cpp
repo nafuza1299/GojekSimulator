@@ -36,7 +36,6 @@ vector< vector<pair<int, int> > > FormAdjList()
 
 
 	// Now let's add our actual edges into the adjacency list.
-	// See the picture here: https://www.srcmake.com/uploads/5/3/9/0/5390645/spadjlist_orig.jpg
 	
 	adjList[0].push_back(make_pair(1, 8+rand() % 10 ));
 	adjList[0].push_back(make_pair(2, 5+rand() % 10 ));
